@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 const Container = styled.View`
   padding: 0 40px 0;

@@ -1,13 +1,14 @@
-import React, { useState, useCallback } from 'react';
-import { Dimensions, StatusBar } from 'react-native';
-import { useNavigation, useFocusEffect } from '@react-navigation/native';
-import { useSelector, useDispatch } from 'react-redux';
-import { BoxShadow } from 'react-native-shadow';
+import React, {useState, useCallback} from 'react';
+import SystemSetting from 'react-native-system-setting';
+import {Dimensions, StatusBar} from 'react-native';
+import {useNavigation, useFocusEffect} from '@react-navigation/native';
+import {useSelector, useDispatch} from 'react-redux';
+import {BoxShadow} from 'react-native-shadow';
 import fromHsv from '~/utils';
-import { SwitchButton, TitleColor } from '~/components/atoms';
-import { ColorPicker } from '~/components/molecules';
-import { userActions } from '~/actions';
-import { translate } from '~/locales';
+import {SwitchButton, TitleColor} from '~/components/atoms';
+import {ColorPicker} from '~/components/molecules';
+import {userActions} from '~/actions';
+import {translate} from '~/locales';
 import {
   Container,
   SwitchContainer,
@@ -15,13 +16,13 @@ import {
   StyledSafeAreaView,
 } from './index.style';
 
-const { width } = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 const INITIAL_BRIGHTNESS = 0.25;
 
 const Home = () => {
   const navigation = useNavigation();
   const dispatch = useDispatch();
-  const { selectColor } = userActions;
+  const {selectColor} = userActions;
   const color = useSelector((state) => state.user.selectedColor);
   const [switchOn, changeSwitch] = useState(false);
   const hasLightColor = color.v > 0.8 && color.s < 0.2;
@@ -47,7 +48,7 @@ const Home = () => {
   useFocusEffect(
     useCallback(() => {
       changeSwitch(false);
-      // SystemSetting.setAppBrightness(INITIAL_BRIGHTNESS);
+      SystemSetting.setAppBrightness(INITIAL_BRIGHTNESS);
     }, []),
   );
 
@@ -58,7 +59,7 @@ const Home = () => {
     }, 200);
   };
 
-  const onSatValPickerChange = ({ saturation, value }) => {
+  const onSatValPickerChange = ({saturation, value}) => {
     dispatch(
       selectColor({
         ...color,
@@ -68,7 +69,7 @@ const Home = () => {
     );
   };
 
-  const onHuePickerChange = ({ hue }) => {
+  const onHuePickerChange = ({hue}) => {
     dispatch(
       selectColor({
         ...color,
@@ -97,7 +98,7 @@ const Home = () => {
           satValPickerSaturation={color.s}
           satValPickerValue={color.v}
           huePickerBarWidth={30}
-          satValPickerContainerStyle={{ marginRight: 10 }}
+          satValPickerContainerStyle={{marginRight: 10}}
           huePickerBarHeight={width - 120}
           onSatValPickerDragMove={onSatValPickerChange}
         />
