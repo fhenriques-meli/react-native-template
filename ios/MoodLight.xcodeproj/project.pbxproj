@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
+		00E356F31AD99517003FC87E /* MoodLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoodLightTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
-		8840FA79ABA145C937393966 /* libPods-ReactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E6638B1E73DE021C4D6475 /* libPods-ReactNativeTemplate.a */; };
-		A26E38ED1701CDC46D405B9A /* libPods-ReactNativeTemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49462442C0622D438169D68D /* libPods-ReactNativeTemplate-tvOSTests.a */; };
-		CAFD224D6288AE61CBB0F979 /* libPods-ReactNativeTemplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1BBB149C28BC1C00CA9C86 /* libPods-ReactNativeTemplate-tvOS.a */; };
-		D228202324C738F3D775EA0E /* libPods-ReactNativeTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5E218ECA3CA115932D01E5 /* libPods-ReactNativeTemplateTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MoodLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoodLightTests.m */; };
+		8840FA79ABA145C937393966 /* libPods-MoodLight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E6638B1E73DE021C4D6475 /* libPods-MoodLight.a */; };
+		A26E38ED1701CDC46D405B9A /* libPods-MoodLight-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49462442C0622D438169D68D /* libPods-MoodLight-tvOSTests.a */; };
+		CAFD224D6288AE61CBB0F979 /* libPods-MoodLight-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1BBB149C28BC1C00CA9C86 /* libPods-MoodLight-tvOS.a */; };
+		D228202324C738F3D775EA0E /* libPods-MoodLightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5E218ECA3CA115932D01E5 /* libPods-MoodLightTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeTemplate;
+			remoteInfo = MoodLight;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ReactNativeTemplate-tvOS";
+			remoteInfo = "MoodLight-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MoodLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeTemplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeTemplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeTemplate/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MoodLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodLightTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MoodLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoodLight/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MoodLight/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeTemplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeTemplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeTemplate/main.m; sourceTree = "<group>"; };
-		1BD7B7FFCBF222E3F66935CB /* Pods-ReactNativeTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplateTests/Pods-ReactNativeTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		290D2DCBFF99923D3436CE69 /* Pods-ReactNativeTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		2A1BBB149C28BC1C00CA9C86 /* libPods-ReactNativeTemplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeTemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48E6638B1E73DE021C4D6475 /* libPods-ReactNativeTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49462442C0622D438169D68D /* libPods-ReactNativeTemplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A5E218ECA3CA115932D01E5 /* libPods-ReactNativeTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75D48F539F029C8609BD7363 /* Pods-ReactNativeTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplateTests/Pods-ReactNativeTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		81FE2450E311E0EBFA45A37C /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOS/Pods-ReactNativeTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AEBEC6322249BC33C1C266E4 /* Pods-ReactNativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		B24EF885ADF49DD988DEBA28 /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOS/Pods-ReactNativeTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C704AA0512E9CDF4224AE6ED /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOSTests/Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC2CBD402AEB63486B75EA8F /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-tvOSTests/Pods-ReactNativeTemplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MoodLight/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoodLight/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoodLight/main.m; sourceTree = "<group>"; };
+		1BD7B7FFCBF222E3F66935CB /* Pods-MoodLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLightTests.debug.xcconfig"; path = "Target Support Files/Pods-MoodLightTests/Pods-MoodLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		290D2DCBFF99923D3436CE69 /* Pods-MoodLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight.debug.xcconfig"; path = "Target Support Files/Pods-MoodLight/Pods-MoodLight.debug.xcconfig"; sourceTree = "<group>"; };
+		2A1BBB149C28BC1C00CA9C86 /* libPods-MoodLight-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodLight-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* MoodLight-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoodLight-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MoodLight-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoodLight-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E6638B1E73DE021C4D6475 /* libPods-MoodLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49462442C0622D438169D68D /* libPods-MoodLight-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodLight-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E218ECA3CA115932D01E5 /* libPods-MoodLightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodLightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D48F539F029C8609BD7363 /* Pods-MoodLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLightTests.release.xcconfig"; path = "Target Support Files/Pods-MoodLightTests/Pods-MoodLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		81FE2450E311E0EBFA45A37C /* Pods-MoodLight-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MoodLight-tvOS/Pods-MoodLight-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AEBEC6322249BC33C1C266E4 /* Pods-MoodLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight.release.xcconfig"; path = "Target Support Files/Pods-MoodLight/Pods-MoodLight.release.xcconfig"; sourceTree = "<group>"; };
+		B24EF885ADF49DD988DEBA28 /* Pods-MoodLight-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MoodLight-tvOS/Pods-MoodLight-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C704AA0512E9CDF4224AE6ED /* Pods-MoodLight-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MoodLight-tvOSTests/Pods-MoodLight-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2CBD402AEB63486B75EA8F /* Pods-MoodLight-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLight-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MoodLight-tvOSTests/Pods-MoodLight-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D228202324C738F3D775EA0E /* libPods-ReactNativeTemplateTests.a in Frameworks */,
+				D228202324C738F3D775EA0E /* libPods-MoodLightTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8840FA79ABA145C937393966 /* libPods-ReactNativeTemplate.a in Frameworks */,
+				8840FA79ABA145C937393966 /* libPods-MoodLight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFD224D6288AE61CBB0F979 /* libPods-ReactNativeTemplate-tvOS.a in Frameworks */,
+				CAFD224D6288AE61CBB0F979 /* libPods-MoodLight-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26E38ED1701CDC46D405B9A /* libPods-ReactNativeTemplate-tvOSTests.a in Frameworks */,
+				A26E38ED1701CDC46D405B9A /* libPods-MoodLight-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeTemplateTests */ = {
+		00E356EF1AD99517003FC87E /* MoodLightTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */,
+				00E356F21AD99517003FC87E /* MoodLightTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeTemplateTests;
+			path = MoodLightTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeTemplate */ = {
+		13B07FAE1A68108700A75B9A /* MoodLight */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeTemplate;
+			name = MoodLight;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				48E6638B1E73DE021C4D6475 /* libPods-ReactNativeTemplate.a */,
-				2A1BBB149C28BC1C00CA9C86 /* libPods-ReactNativeTemplate-tvOS.a */,
-				49462442C0622D438169D68D /* libPods-ReactNativeTemplate-tvOSTests.a */,
-				5A5E218ECA3CA115932D01E5 /* libPods-ReactNativeTemplateTests.a */,
+				48E6638B1E73DE021C4D6475 /* libPods-MoodLight.a */,
+				2A1BBB149C28BC1C00CA9C86 /* libPods-MoodLight-tvOS.a */,
+				49462442C0622D438169D68D /* libPods-MoodLight-tvOSTests.a */,
+				5A5E218ECA3CA115932D01E5 /* libPods-MoodLightTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeTemplate */,
+				13B07FAE1A68108700A75B9A /* MoodLight */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeTemplateTests */,
+				00E356EF1AD99517003FC87E /* MoodLightTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F20667EDD69A7AD282AD5284 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MoodLight.app */,
+				00E356EE1AD99517003FC87E /* MoodLightTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MoodLight-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MoodLight-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		F20667EDD69A7AD282AD5284 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				290D2DCBFF99923D3436CE69 /* Pods-ReactNativeTemplate.debug.xcconfig */,
-				AEBEC6322249BC33C1C266E4 /* Pods-ReactNativeTemplate.release.xcconfig */,
-				81FE2450E311E0EBFA45A37C /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */,
-				B24EF885ADF49DD988DEBA28 /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */,
-				C704AA0512E9CDF4224AE6ED /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */,
-				DC2CBD402AEB63486B75EA8F /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */,
-				1BD7B7FFCBF222E3F66935CB /* Pods-ReactNativeTemplateTests.debug.xcconfig */,
-				75D48F539F029C8609BD7363 /* Pods-ReactNativeTemplateTests.release.xcconfig */,
+				290D2DCBFF99923D3436CE69 /* Pods-MoodLight.debug.xcconfig */,
+				AEBEC6322249BC33C1C266E4 /* Pods-MoodLight.release.xcconfig */,
+				81FE2450E311E0EBFA45A37C /* Pods-MoodLight-tvOS.debug.xcconfig */,
+				B24EF885ADF49DD988DEBA28 /* Pods-MoodLight-tvOS.release.xcconfig */,
+				C704AA0512E9CDF4224AE6ED /* Pods-MoodLight-tvOSTests.debug.xcconfig */,
+				DC2CBD402AEB63486B75EA8F /* Pods-MoodLight-tvOSTests.release.xcconfig */,
+				1BD7B7FFCBF222E3F66935CB /* Pods-MoodLightTests.debug.xcconfig */,
+				75D48F539F029C8609BD7363 /* Pods-MoodLightTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeTemplateTests */ = {
+		00E356ED1AD99517003FC87E /* MoodLightTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTemplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoodLightTests" */;
 			buildPhases = (
 				3613593B7B59D65A572A5D17 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -214,14 +214,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeTemplateTests;
-			productName = ReactNativeTemplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeTemplateTests.xctest */;
+			name = MoodLightTests;
+			productName = MoodLightTests;
+			productReference = 00E356EE1AD99517003FC87E /* MoodLightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeTemplate */ = {
+		13B07F861A680F5B00A75B9A /* MoodLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeTemplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoodLight" */;
 			buildPhases = (
 				FF0837681A15CC3A6D9BECF6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeTemplate;
-			productName = ReactNativeTemplate;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeTemplate.app */;
+			name = MoodLight;
+			productName = MoodLight;
+			productReference = 13B07F961A680F5B00A75B9A /* MoodLight.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* MoodLight-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoodLight-tvOS" */;
 			buildPhases = (
 				8B1F1F6F949395E8E0E16E5F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactNativeTemplate-tvOS";
-			productName = "ReactNativeTemplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */;
+			name = "MoodLight-tvOS";
+			productName = "MoodLight-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MoodLight-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* MoodLight-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoodLight-tvOSTests" */;
 			buildPhases = (
 				4DF54AAAE6AE4691B62FD59C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ReactNativeTemplate-tvOSTests";
-			productName = "ReactNativeTemplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */;
+			name = "MoodLight-tvOSTests";
+			productName = "MoodLight-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MoodLight-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoodLight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -319,10 +319,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeTemplate */,
-				00E356ED1AD99517003FC87E /* ReactNativeTemplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* MoodLight */,
+				00E356ED1AD99517003FC87E /* MoodLightTests */,
+				2D02E47A1E0B4A5D006451C7 /* MoodLight-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MoodLight-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +415,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoodLightTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +428,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MoodLight/Pods-MoodLight-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -467,7 +467,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodLight/Pods-MoodLight-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4DF54AAAE6AE4691B62FD59C /* [CP] Check Pods Manifest.lock */ = {
@@ -485,7 +485,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoodLight-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -507,7 +507,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoodLight-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -567,7 +567,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoodLight-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,7 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeTemplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MoodLightTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ReactNativeTemplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MoodLightTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,12 +616,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeTemplate */;
+			target = 13B07F861A680F5B00A75B9A /* MoodLight */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* MoodLight-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -633,7 +633,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ReactNativeTemplate;
+			path = MoodLight;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -641,14 +641,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BD7B7FFCBF222E3F66935CB /* Pods-ReactNativeTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 1BD7B7FFCBF222E3F66935CB /* Pods-MoodLightTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeTemplateTests/Info.plist;
+				INFOPLIST_FILE = MoodLightTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -658,7 +658,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate.app/ReactNativeTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodLight.app/MoodLight";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 				);
@@ -667,11 +667,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75D48F539F029C8609BD7363 /* Pods-ReactNativeTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 75D48F539F029C8609BD7363 /* Pods-MoodLightTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeTemplateTests/Info.plist;
+				INFOPLIST_FILE = MoodLightTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -681,7 +681,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate.app/ReactNativeTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodLight.app/MoodLight";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 				);
@@ -690,12 +690,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290D2DCBFF99923D3436CE69 /* Pods-ReactNativeTemplate.debug.xcconfig */;
+			baseConfigurationReference = 290D2DCBFF99923D3436CE69 /* Pods-MoodLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = ReactNativeTemplate/Info.plist;
+				INFOPLIST_FILE = MoodLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -703,7 +703,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeTemplate;
+				PRODUCT_NAME = MoodLight;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,11 +713,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEBEC6322249BC33C1C266E4 /* Pods-ReactNativeTemplate.release.xcconfig */;
+			baseConfigurationReference = AEBEC6322249BC33C1C266E4 /* Pods-MoodLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ReactNativeTemplate/Info.plist;
+				INFOPLIST_FILE = MoodLight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -725,7 +725,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeTemplate;
+				PRODUCT_NAME = MoodLight;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -735,7 +735,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81FE2450E311E0EBFA45A37C /* Pods-ReactNativeTemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 81FE2450E311E0EBFA45A37C /* Pods-MoodLight-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -746,14 +746,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MoodLight-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoodLight-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -766,7 +766,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B24EF885ADF49DD988DEBA28 /* Pods-ReactNativeTemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = B24EF885ADF49DD988DEBA28 /* Pods-MoodLight-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -777,14 +777,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "MoodLight-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoodLight-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -797,7 +797,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C704AA0512E9CDF4224AE6ED /* Pods-ReactNativeTemplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C704AA0512E9CDF4224AE6ED /* Pods-MoodLight-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -807,17 +807,17 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MoodLight-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoodLight-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate-tvOS.app/ReactNativeTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodLight-tvOS.app/MoodLight-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -827,7 +827,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC2CBD402AEB63486B75EA8F /* Pods-ReactNativeTemplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = DC2CBD402AEB63486B75EA8F /* Pods-MoodLight-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -837,17 +837,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeTemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MoodLight-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeTemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoodLight-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeTemplate-tvOS.app/ReactNativeTemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodLight-tvOS.app/MoodLight-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -957,7 +957,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTemplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoodLightTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -966,7 +966,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeTemplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoodLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -975,7 +975,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoodLight-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -984,7 +984,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeTemplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MoodLight-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -993,7 +993,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeTemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoodLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
